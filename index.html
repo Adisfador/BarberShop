@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberShop</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Play&family=Pontano+Sans&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/logo-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="staff/normalize.css" type="text/css">
+    <link rel="stylesheet" href="staff/animate.css" type="text/css">
+    <link rel="stylesheet" href="stul.css" type="text/css">
+    <link rel="stylesheet" href="css/style.min.css?ver=3" type="text/css">
+    <link rel="stylesheet" href="staff/iconFontsstyle.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="header" class="header">
+        <div class="header__inner">
+            <nav class="nav">
+                <button id="nav__burger" class="nav__burger">
+                    <span></span>
+                </button>
+                <div class="nav__links">
+                    <div class="nav__phone">
+                        <a href="tel:+74956685555" class="nav__number">+7 (495) 668 5555</a>
+                        <i class=" icon-phone"></i>
+                    </div>
+                    <div class="nav__contacts">
+                        <span class="nav__text">Contacts</span>
+                        <a href="#" class="nav__link">
+                            <i class=" icon-facebook"></i></a>
+                        <a href="#" class="nav__link">
+                            <i class=" icon-instagram"></i></a>
+                        <a href="#" class="nav__link">
+                            <i class=" icon-twitter"></i></a>
+                    </div>
+                </div>
+            </nav>
+            <div id="header__nav" class="header__nav ">
+                <div class="header__link 1" data-scroll="#screen">ГЛАВНАЯ</div>
+                <div class="header__link 2" data-scroll="#service">ПРАЙС</div>
+                <div class="header__link 3" data-scroll="#adres">АДРЕС</div>
+                <div class="header__link 4" data-scroll="#about">О САЛОНЕ</div>
+                <div class="header__link 5" data-scroll="#franchise">ФРАНШИЗА</div>
+                <div class="header__link 6" data-scroll="#contacts">КОНТАКТЫ</div>
+                <div class="header__buttons">
+                    <button data-scroll="#contacts"  id="header__btn" class="header__btn">
+                        <span id="unorderedList">
+                            Онлайн запись</span>
+                    </button>
+                    <button data-scroll="#contacts"  class="header__btn">
+                        <span  id="unorderedList2">Обратная связь</span>
+                    </button>
+                </div>
+            </div>
+            <div class="header__bg--shadow"></div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- screen -->
+    <section id="screen" class="screen">
+        <div class="screen__inner">
+            <div class="screen__main">
+                <div class="screen__captiop">
+                    BarberShop BarberShop
+                </div>
+                <div class="screen__logo">
+                    <img src="img/logo.svg" alt="img" class="screen__img">
+                    <div class="screen__subtitle">
+                        Unit 22 Bessemer Park, 250 Milkwood Rd, London SE24
+                    </div>
+                </div>
+                <div class="screen__text-box">
+                    <h1 class="screen__title">
+                        СОЗДАЙ СЕБЕ НОВЫЙ <span>ОБРАЗ</span>
+                    </h1>
+                    <p class="screen__text">
+                        Главное в бренде — это его лицо и надежность. Мы делаем все, чтобы каждый наш посетитель обладал
+                        своим индивидуальным брендом.
+                    </p>
+                </div>
+                <button data-scroll="#about" class="screen__btn">
+                    <span>Узнай о нас больше</span>
+                </button>
+            </div>
+            <div class="screen__second">
+                <div class="screen__item">
+                    <h2 class="screen__heading">
+                        Мужская стрижка
+                    </h2>
+                    <button data-scroll="#service" class="screen__btn">
+                        <span>Подробнее </span>
+                    </button>
+                </div>
+                <div class="screen__item">
+                    <h2 class="screen__heading">
+                        Борода и усы
+                    </h2>
+                    <button data-scroll="#service" class="screen__btn">
+                        <span>Подробнее </span>
+                    </button>
+                </div>
+                <button data-scroll="#service" class="screen__adapt-btn"><span>Мужская стрижка</span></button>
+                <button data-scroll="#service" class="screen__adapt-btn"><span> Борода и усы</span></button>
+            </div>
+        </div>
+    </section>
+    <!-- screen end -->
+    <!-- service -->
+    <section id="service" class="service">
+        <div class="container">
+            <div class="service__inner">
+                <div class="service__item">
+                    <h1 class="service__title">
+                        ДЛЯ МУЖЧИН, КОТОРЫЕ ЦЕНЯТ <span>КАЧЕСТВО</span>
+                    </h1>
+                    <div class="service__text-box">
+                        <p class="service__text">
+                            Мы стремимся создать не только элегантный образ, но и ощущение комфорта и уюта, для того
+                            чтобы каждое посещение нашего заведения оставляло ощущение встречи со старыми друзьями.
+                        </p>
+                        <button class="service__btn">
+                            <span>Online запись</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="service__item">
+                    <div class="service__price active">
+                        <div class="service__close active"></div>
+                        <div class="service__descr">
+                            <h2 class="service__caption">
+                                Услуги и цены
+                            </h2>
+                            <p class="service__comm">
+                                В зависимости от Ваших предпочтений, наши барберы предложат подходящий вариант стрижки.
+                            </p>
+                            <button id="service__btn" class="service__btn">
+                                <span>Посмотреть сейчас</span>
+                            </button>
+                        </div>
+                        <div class="table active">
+                            <div class="table__row">
+                                <span class="table__main-desc">Услуга</span>
+                                <span class="table__main-desc">Brand <br>
+                                    Barber</span>
+                                <span class="table__main-desc">Pro <br>
+                                    Barber
+                                </span>
+                                <span class="table__main-desc">Barber</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Мужская стрижка + Моделирование бороды / Men's haircut +
+                                    Beard modeling</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Премиум стрижка ножницами / Premium Men's haircut</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Мужская стрижка / Men's haircut</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Стрижка машинкой / Clipper haircut</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Детская стрижка / Children's haircut</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Моделирование бороды / Beard modeling</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Камуфляж седины / Color camo</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Бритье / Shaving</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Бритье головы / Shaving head</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Окантовка и укладка волос / Styling</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Биозавивка волос и мужская стрижка</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">INDIVIDUAL BRAND (Премиум стрижка, London Grooming, THEO,
+                                    Воск)</span>
+                                <span class="table__price">3200</span>
+                                <span class="table__price">2700 </span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</span>
+                                <span class="table__price">3200</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Уход за лицом от "London Grooming"</span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Черная маска и скраб / Black mask & scrub</span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Воск / Waxing</span>
+
+                                <span class="table__price">300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Уход за кожей головы и волосами THEO / Scalp and hair
+                                    care THEO</span>
+                                <span class="table__price">2300</span>
+                            </div>
+                            <div class="table__row">
+                                <span class="table__main-desc">Патчи / Patches</span>
+                                <span class="table__price">200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__stock active">
+                        <div class="slider">
+                            <div class="slider__count-box">
+                                <h2 class="slider__title">Акции</h2>
+                                <div class="slider__count"><span class="span">/2</span> /2</div>
+                            </div>
+                            <div class="slider__wrapper">
+                                <div class="slider__item first">
+                                    <h2 class="slider__caption ">20%</h2>
+                                    <p class="slider__text">на оказываемые услуги по акции «День Рождения» </p>
+                                </div>
+                                <div class="slider__item  second">
+                                    <h2 class="slider__caption">15%</h2>
+                                    <p class="slider__text">
+                                        на оказываемые услуги по акции «Отец & Сын»</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service end -->
+    <!-- map -->
+    <section id="adres" class="map">
+        <div class="map__descr">
+            <h2 class="map__title">Основной <span>филиал </span></h2>
+            <div class="map__adres">
+                Адрес: Piccadilly Circus underground
+            </div>
+            <a href="tel:+74956685555" class="map__number">Телефон: +7 (495) 668 5555</a>
+            <img src="img/logo.svg" alt="img" class="map__img">
+        </div>
+        <div id="map" style="width: 100%; height: 430px"></div>
+    </section>
+    <!-- map end -->
+    <!-- about -->
+    <section id="about" class="about ">
+        <div class="container">
+            <div class="glich--wrapper">
+                <div class="glich wow  animate__animated animate__slideInDown" data-wow-offset="300">
+                    <div class="glich__img"></div>
+                    <div class="glich__img"></div>
+                    <div class="glich__img"></div>
+                    <div class="glich__img"></div>
+                </div>
+            </div>
+            <div class="about__article">
+                <div class="cards wow  animate__animated animate__fadeInLeft" data-wow-offset="300">
+                    <a href="#" class="cards__item">
+                        <h3 class="cards__title">В ПЕРВЫЙ РАЗ В СЕТИ? <span>ПОЛУЧИ СКИДКУ!</span></h3>
+                        <div class="cards__disc">
+                            25%
+                        </div>
+                        <div class="cards__link">
+                            подробнее
+                        </div>
+                    </a>
+                    <a href="#" class="cards__item">
+                        <h3 class="cards__title">Каждая 10 стрижка <span>в подарок!</span></h3>
+                        <div class="cards__disc-box">
+                            <div class="cards__row">
+                                <div class="cards__day"></div>
+                                <div class="cards__day"></div>
+                                <div class="cards__day"></div>
+                                <div class="cards__day"></div>
+                                <div class="cards__day"></div>
+                            </div>
+                            <div class="cards__row">
+                                <div class="cards__day"></div>
+                                <div class="cards__day"></div>
+                                <div class="cards__day"></div>
+                                <div class="cards__day"></div>
+                                <div class="cards__day"></div>
+                            </div>
+                        </div>
+                        <div  class="cards__link">
+                            подробнее
+                        </div>
+                    </a>
+                </div>
+                <div class="about__descr wow  animate__animated animate__fadeInRight" data-wow-offset="300">
+                    <div class="about__links">
+                        <a href="#" class="about__link">vk</a>
+                        <a href="#" class="about__link">ins</a>
+                        <a href="#" class="about__link">fb</a>
+                        <a href="#" class="about__link">you</a>
+                        <a href="#" class="about__link">tok</a>
+                    </div>
+                    <h2 class="about__title">
+                        <span>BarberShop</span> ЭТО ЛЮДИ
+                    </h2>
+                    <div class="about__text-box">
+                        <div class="about__slogan--wrapper">
+                            <div class="about__slogan">BarberShop <span>barbershop</span></div>
+                            <div class="about__slogan">BarberShop <span>barbershop</span></div>
+                            <div class="about__slogan">BarberShop <span>barbershop</span></div>
+                        </div>
+                        <p class="about__text">BarberShop - это люди. Мы думаем не только о сервисе и качестве ваших
+                            стрижек, нам гораздо важнее, чтобы каждый, от клиента до клининг-менеджера, чувствовал себя
+                            комфортно и не боялся быть собой. Наши барбершопы созданы для людей, готовых создавать и
+                            поддерживать, созидать и развиваться, уважать и доказывать, что только совместными
+                            действиями можно творить историю и стать великими. У нас получается - по версии делового
+                            журнала рбк сеть барбершопов britva вошла в тройку лидеров барберинга москвы.</p>
+                    </div>
+                    <a href="#" class="more">подробнее о нас</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+    <!-- franchise -->
+    <section id="franchise" class="franchise">
+        <div class="franchise__inner">
+            <div class="container">
+                <div class="franchise__descr wow  animate__animated animate__fadeInLeft" data-wow-offset="300">
+                    <h1 class="franchise__title">
+                        ФРАНШИЗА
+                    </h1>
+                    <p class="franchise__text">
+                        Мы работаем сутками, чтобы развивать мощный бренд, который уже сейчас покоряет мужчин по всей
+                        России. В сети барбершопов BarberShop нет места фамильярности и плохому обслуживанию.
+
+                        Возможно, мистика нашего успеха в этом.
+                    </p>
+                    <div class="franchise__numbers">9
+                        <span>месяцев</span>
+                        <span> окупаемость</span>
+                    </div>
+                    <div class="franchise__numbers">350
+                        <span>тыс. руб.</span>
+                        <span> чистая прибыль</span>
+                    </div>
+                    <div class="franchise__numbers">400
+                        <span>тыс. руб.</span>
+                        <span> вступ. взнос</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="franchise__holl ">
+            <img src="img/right-bg.jpg" alt="img" class="franchise__img">
+        </div>
+        <div class="franchise__wrapper wow  animate__animated animate__fadeInLeft" data-wow-offset="300">
+            <div class="franchise__slider">
+                <img src="img/slider-1.jpg" alt="img" class="franchise__photo-slider">
+                <img src="img/slider-2.jpg" alt="img" class="franchise__photo-slider">
+                <img src="img/slider-3.png" alt="img" class="franchise__photo-slider">
+                <img src="img/slider-4.jpg" alt="img" class="franchise__photo-slider">
+            </div>
+            <a href="#" class="more">подробнее о нас</a>
+        </div>
+    </section>
+    <!-- franchise end -->
+    <!-- contacts -->
+    <section id="contacts" class="contacts">
+        <svg version="1.1" id="barber_x5F_big_x5F_barbershop" 
+             x="0px" y="0px" viewBox="0 0 1607.29 357.88"
+            style="enable-background:new 0 0 1607.29 357.88;" xml:space="preserve">
+            <path id="barber_x5F_big_x5F_barbershop0" style="fill:#FFFFFF;" d="M230.02,121.51l21.82,145.37H208.2L230.02,121.51z
+            M543.93,316.99h25.94c7.96,0,13.86-2.12,17.7-6.37c3.84-4.24,5.76-11.56,5.76-21.97V263.6c0-13.14-2.26-22.24-6.79-27.31
+            c-4.53-5.06-12.01-7.6-22.44-7.6h-20.17L543.93,316.99L543.93,316.99z M415.18,192.97c4.53-4.65,6.79-12.45,6.79-23.41v-28.33
+            c0-19.71-7.69-29.57-23.06-29.57h-21.82v88.29h17.7C403.86,199.95,410.65,197.63,415.18,192.97z M377.09,357.88h49.35
+            c-2.71-8.21-4.06-19.91-4.06-35.15v-45.17c0-13.14-2.34-22.52-7-28.13c-4.67-5.61-12.22-8.42-22.64-8.42h-15.65V357.88z
+            M43.43,316.99h25.94c7.96,0,13.86-2.12,17.7-6.37c3.84-4.24,5.76-11.56,5.76-21.97V263.6c0-13.14-2.26-22.24-6.79-27.31
+            c-4.53-5.06-12.01-7.6-22.44-7.6H43.43V316.99z M194.64,357.88h71.18l-7.8-51.98h-55.58L194.64,357.88z M88.31,157.24v-16.02
+            c0-19.71-7.69-29.57-23.06-29.57H43.43v75.97h17.7c9.06,0,15.85-2.32,20.38-6.98C86.04,176,88.31,168.19,88.31,157.24z
+            M1402.78,291.94V136.71c0-18.89-7.82-28.34-23.47-28.34s-23.47,9.44-23.47,28.34v155.23c0,18.89,7.82,28.34,23.47,28.34
+            C1394.96,320.27,1402.78,310.83,1402.78,291.94z M588.8,157.24v-16.02c0-19.71-7.69-29.57-23.06-29.57h-21.82v75.97h17.7
+            c9.06,0,15.85-2.32,20.38-6.98C586.54,176,588.8,168.19,588.8,157.24z M1186.54,357.88H1238V234.85h-51.46V357.88z M1558.29,202.82
+            c3.71-4.11,5.56-11.09,5.56-20.94v-43.12c0-9.86-1.85-16.84-5.56-20.94c-3.71-4.11-9.26-6.16-16.67-6.16h-21.41v97.33h21.41
+            C1549.03,208.98,1554.59,206.93,1558.29,202.82z M903.32,192.97c4.53-4.65,6.79-12.45,6.79-23.41v-28.33
+            c0-19.71-7.69-29.57-23.06-29.57h-21.82v88.29h17.7C892,199.95,898.79,197.63,903.32,192.97z M865.23,357.88h49.35
+            c-2.71-8.21-4.06-19.91-4.06-35.15v-45.17c0-13.14-2.34-22.52-7-28.13c-4.67-5.61-12.22-8.42-22.64-8.42h-15.65L865.23,357.88
+            L865.23,357.88z M1607.29,120.18V0H0v70.59h66.48c23.33,0,40.35,5.41,51.05,16.22c10.7,10.82,16.06,27.45,16.06,49.89v10.27
+            c0,29.57-9.75,48.87-29.23,57.9c22.5,8.76,33.76,29.3,33.76,61.6v23.41c0,22.18-5.83,39.08-17.5,50.72
+            c-10.58,10.55-25.63,16.3-45.11,17.28h77.55l46.09-287.29h66.29l46.09,287.29h20.29V70.59h68.34c23.33,0,40.35,5.41,51.05,16.22
+            c10.7,10.82,16.06,27.45,16.06,49.89v22.59c0,29.57-9.88,49.01-29.64,58.31c20.03,8.49,30.06,28.89,30.06,61.19v44.35
+            c0,15.49,1.63,27.07,4.87,34.74h26.09V70.59h68.34c23.33,0,40.35,5.41,51.05,16.22c10.7,10.82,16.06,27.45,16.06,49.89v10.27
+            c0,29.57-9.75,48.87-29.23,57.9c22.5,8.76,33.76,29.3,33.76,61.6v23.41c0,22.18-5.83,39.08-17.5,50.72
+            c-10.58,10.55-25.63,16.3-45.11,17.28h89.46V70.59h123.51v41.07h-78.23v80.08h62.17v41.07h-62.17v84.18h78.23v40.9h30.96V70.59
+            h68.34c23.33,0,40.35,5.41,51.05,16.22c10.7,10.82,16.06,27.45,16.06,49.89v22.59c0,29.57-9.88,49.01-29.64,58.31
+            c20.03,8.49,30.06,28.89,30.06,61.19v44.35c0,15.49,1.63,27.07,4.87,34.74h61.21c-9.97-3.05-18.25-8.12-24.82-15.23
+            c-11.53-12.45-17.29-30.32-17.29-53.59V271.4h42.82v20.53c0,18.62,7.82,27.92,23.47,27.92s23.47-9.3,23.47-27.92
+            c0-10.68-3.02-20.74-9.06-30.18c-6.04-9.45-13.38-18-22.03-25.67c-8.65-7.66-17.36-15.67-26.14-24.02
+            c-8.79-8.35-16.2-18.75-22.23-31.21c-6.04-12.45-9.06-26.21-9.06-41.27c0-23.27,5.62-41.13,16.88-53.59
+            c11.25-12.45,27.86-18.68,49.82-18.68s38.56,6.23,49.82,18.68c11.25,12.46,16.88,30.32,16.88,53.59v9.03h-42.82V136.7
+            c0-18.89-7.55-28.34-22.64-28.34c-15.1,0-22.64,9.44-22.64,28.34c0,7.94,1.65,15.47,4.94,22.59c3.29,7.12,7.55,13.55,12.76,19.3
+            s10.97,11.43,17.29,17.04c6.31,5.61,12.56,11.5,18.73,17.66c6.18,6.16,11.87,12.73,17.09,19.71c5.21,6.98,9.47,15.26,12.76,24.84
+            c3.29,9.59,4.94,19.99,4.94,31.21c0,23.27-5.76,41.14-17.29,53.59c-6.58,7.11-14.86,12.18-24.83,15.23h68.55V70.59h45.29v123.2
+            h51.46V70.59h46.11v287.29h69.58c-10.19-3.08-18.67-8.22-25.43-15.44c-11.8-12.59-17.7-30.39-17.7-53.39V139.58
+            c0-23,5.9-40.79,17.7-53.38c11.8-12.59,28.82-18.89,51.05-18.89c22.23,0,39.25,6.3,51.05,18.89c11.8,12.6,17.7,30.39,17.7,53.38
+            v149.48c0,23-5.91,40.8-17.7,53.39c-6.76,7.22-15.25,12.35-25.43,15.44h69.98V70.59h66.7C1579.22,70.59,1601.1,87.13,1607.29,120.18
+            z M1607.29,200.46c-6.19,33.05-28.08,49.58-65.68,49.58h-21.41v107.83h87.09L1607.29,200.46L1607.29,200.46z">
+            </path>
+        </svg>
+        <div class="container">
+            <div class="contacts__inner">
+                <div class="contacts__item">
+                    <h1 class="contacts__title">
+                        ОСТАВЬТЕ ЗАЯВКУ
+                    </h1>
+                    <p class="contacts__text">
+                        Заполните все поля и наш менеджер свяжется с вами, чтобы уточнить дату и время
+                    </p>
+                    <form action="mail.php" method="POST" class="contacts__form">
+                        <input id="Name" name="Name" class="contacts__input" type="text" placeholder="Name">
+                        <input name="phone" placeholder="Phone +7 (910) xxx-xx-xx" type="tel"
+                            pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+                            class="contacts__input" required>
+                        <button class="contacts__btn">Отправить</button>
+                    </form>
+                </div>
+                <div class="contacts__item">
+                    <img src="img/contacts-img.png" alt="img" class="contacts__img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contacts end -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a href="https://zvladislav.ffox.site/" target="_blank" class="footer__item">
+                    <img src="img/cog.svg" alt="img" class="footer__img">
+                    <h2 class="footer__logo-text"> Разработка сайта<span>
+                            < Vfolio />
+                        </span></h2>
+                </a>
+                <a href="https://strangebrain.ru/" target="_blank" class="footer__item">
+                    <svg version="1.1" id="barber_x5F_big_x5F_barbersh" 
+                         x="0px" y="36.1px" viewBox="0 0 36.1 36"
+                        style="enable-background:new 0 0 36.1 36;" xml:space="preserve">
+                        <path id="barber_x5F_big_x5F_barbershop1" style="fill:#FFFFFF;" d='M18.1,5c-7,0-12.8,5.8-12.8,12.9s5.8,12.9,12.9,12.9S31,25,31,17.9S25.2,5,18.1,5 M18.1,34.9
+                        c-9.4,0-17-7.6-17-17s7.6-17,17-17s17,7.6,17,17S27.5,34.9,18.1,34.9'></path>
+                        <path id="barber_x5F_big_x5F_barbershop2" style="fill:#FFFFFF;" d='M35.2,17.9v0.4c0,0.1,0,0.3,0,0.4c0,0.3-0.1,0.6-0.1,0.9c-0.1,0.6-0.2,1.2-0.4,1.7
+                        c-0.3,1.1-0.8,2.3-1.5,3.3c-1.3,2-3,3.7-5,4.8c-1,0.6-2,1.1-3.1,1.4c-1.1,0.4-2.2,0.6-3.4,0.7c-0.1,0-0.3,0-0.4,0h-0.2h-0.2
+                        c-0.1,0-0.3,0-0.4,0s-0.3,0-0.4,0c-0.6,0-1.1-0.1-1.7-0.1C17.2,31.2,16,31,15,30.6c-1.1-0.4-2.1-1-3-1.7s-1.7-1.6-2.4-2.6
+                        c-0.6-1-1.1-2-1.4-3.1c-0.3-1.1-0.5-2.2-0.5-3.3c0-0.6,0-1.1,0.1-1.7c0-0.3,0.1-0.5,0.1-0.8c0-0.1,0-0.3,0.1-0.4
+                        c0-0.2,0.1-0.3,0.1-0.4c0.2-1.1,0.7-2.2,1.3-3.2s1.4-1.8,2.3-2.5c0.9-0.7,1.9-1.3,2.9-1.7c1.1-0.4,2.2-0.6,3.4-0.6
+                        c0.3,0,0.6,0,0.9,0.1c0.1,0,0.3,0,0.4,0.1c0.1,0,0.3,0,0.4,0.1c0.5,0.1,1.1,0.2,1.6,0.4c1,0.4,2,0.9,2.9,1.6
+                        c0.9,0.7,1.6,1.6,2.1,2.6s0.8,2.1,0.9,3.2c0,0.6,0,1.1,0,1.7C27.1,19,27,19.5,26.8,20c-0.4,1.1-1.1,2-1.9,2.7s-1.8,1.2-2.9,1.5
+                        c-0.5,0.1-1.1,0.2-1.6,0.2s-1.1-0.1-1.6-0.2c-1.1-0.3-2.1-0.8-2.8-1.7c-0.7-0.8-1.2-1.8-1.3-2.9c-0.1-0.5-0.1-1.1,0-1.6
+                        s0.3-1,0.6-1.5s0.7-0.8,1.2-1.1s1-0.4,1.5-0.5c0.5,0,1.1,0,1.6,0.2s1,0.5,1.2,1c0.3,0.5,0.4,1,0.3,1.5c0,0.3-0.1,0.5-0.2,0.8
+                        c-0.1,0.2-0.3,0.5-0.5,0.6c-0.4,0.3-1,0.5-1.5,0.3c-0.3-0.1-0.5-0.2-0.6-0.4c-0.1-0.2-0.2-0.5-0.2-0.7c0,0.3,0.1,0.5,0.2,0.7
+                        s0.4,0.3,0.6,0.4c0.5,0.1,1-0.1,1.4-0.4c0.2-0.2,0.3-0.4,0.4-0.6s0.1-0.5,0.1-0.7c0-0.5-0.1-1-0.4-1.4s-0.7-0.7-1.1-0.8
+                        c-0.5-0.2-1-0.2-1.4-0.2c-0.5,0-0.9,0.2-1.3,0.5c-0.4,0.3-0.7,0.6-1,1c-0.2,0.4-0.4,0.9-0.5,1.3c-0.1,0.5-0.1,0.9,0,1.4
+                        c0.2,0.9,0.6,1.8,1.3,2.5c0.7,0.7,1.5,1.1,2.4,1.3c0.5,0.1,0.9,0.1,1.4,0.1s0.9-0.1,1.4-0.2c0.9-0.3,1.7-0.8,2.4-1.4
+                        c0.7-0.6,1.2-1.4,1.5-2.3c0.1-0.4,0.2-0.9,0.3-1.3c0-0.4,0-0.9,0-1.4c-0.1-0.9-0.4-1.8-0.8-2.6c-0.5-0.8-1.1-1.5-1.8-2
+                        c-0.7-0.5-1.6-1-2.4-1.2c-0.4-0.1-0.9-0.2-1.4-0.3c-0.1,0-0.2,0-0.3,0c-0.1,0-0.2,0-0.4,0c-0.2,0-0.4,0-0.7,0
+                        c-0.9,0-1.8,0.2-2.6,0.6c-1.7,0.7-3.1,2-4,3.5c-0.4,0.8-0.8,1.6-0.9,2.4c0,0.1,0,0.2,0,0.3c0,0.1,0,0.2,0,0.3c0,0.2,0,0.5-0.1,0.7
+                        c0,0.5,0,0.9,0,1.4c0.1,1.8,0.7,3.6,1.7,5c0.5,0.7,1.1,1.3,1.8,1.8s1.5,0.9,2.3,1.2c0.8,0.3,1.7,0.5,2.6,0.5c0.5,0,0.9,0.1,1.4,0.1
+                        c0.1,0,0.2,0,0.3,0h0.3H21h0.2c0.1,0,0.2,0,0.3,0c1.7-0.2,3.4-0.9,4.9-1.8c1.5-1,2.7-2.2,3.6-3.7c0.4-0.7,0.7-1.5,0.9-2.3
+                        c0.1-0.4,0.2-0.8,0.2-1.2c0-0.2,0-0.4,0-0.6c0-0.1,0-0.2,0-0.3v-0.3L35.2,17.9z'></path>
+                        <path id="barber_x5F_big_x5F_barbershop3" style="fill:#FFFFFF;" d='M33.6,17.8c0,1.1-0.2,2.1-0.5,3.1s-0.7,2-1.3,2.9c-1.1,1.8-2.7,3.3-4.5,4.4c-0.9,0.5-1.8,1-2.8,1.3
+                        s-2,0.6-3.1,0.7c-0.5,0-1,0-1.6,0c-0.5,0-1-0.1-1.6-0.1c-1-0.1-2.1-0.4-3-0.7c-1-0.4-1.9-0.9-2.7-1.5s-1.6-1.4-2.1-2.3
+                        c-0.6-0.9-1-1.8-1.3-2.8s-0.5-2-0.5-3.1c0-0.5,0-1,0-1.6c0-0.3,0-0.5,0.1-0.8c0-0.1,0-0.3,0.1-0.4c0-0.1,0-0.3,0.1-0.4
+                        c0.2-1,0.6-2,1.2-2.9c1.1-1.8,2.8-3.1,4.7-3.9c1-0.4,2-0.6,3-0.6c0.3,0,0.5,0,0.8,0s0.5,0.1,0.8,0.1c0.5,0.1,1,0.2,1.5,0.4
+                        c1,0.3,1.9,0.8,2.7,1.5c0.8,0.6,1.5,1.5,2,2.4s0.8,1.9,0.9,3c0,0.5,0.1,1,0,1.6c-0.1,0.5-0.2,1-0.3,1.5c-0.4,1-1,1.9-1.7,2.6
+                        c-0.8,0.7-1.7,1.2-2.7,1.5c-0.5,0.1-1,0.2-1.5,0.2s-1,0-1.5-0.2c-1-0.2-2-0.8-2.7-1.5c-0.7-0.8-1.2-1.7-1.3-2.8
+                        c-0.1-0.5-0.1-1,0-1.6c0.1-0.5,0.3-1,0.6-1.5c0.3-0.4,0.7-0.8,1.1-1.1c0.5-0.3,1-0.4,1.5-0.5c0.5,0,1,0,1.5,0.2s1,0.5,1.2,0.9
+                        c0.3,0.5,0.4,1,0.4,1.5c0,0.3,0,0.5-0.1,0.8s-0.3,0.5-0.5,0.6c-0.4,0.3-1,0.5-1.5,0.4c-0.3-0.1-0.5-0.2-0.7-0.5
+                        c-0.2-0.2-0.2-0.5-0.2-0.8h0.2c0,0.2,0,0.5,0.2,0.7c0.1,0.2,0.3,0.3,0.6,0.4c0.5,0.1,1,0,1.3-0.3c0.2-0.2,0.3-0.3,0.4-0.6
+                        c0.1-0.2,0.1-0.5,0.1-0.7c0-0.5-0.1-1-0.3-1.4c-0.3-0.4-0.7-0.7-1.1-0.9c-0.5-0.2-1-0.2-1.5-0.2s-1,0.2-1.4,0.4s-0.8,0.6-1,1
+                        c-0.3,0.4-0.4,0.9-0.5,1.4s-0.1,1,0,1.5c0.2,1,0.6,1.9,1.3,2.6c0.7,0.7,1.6,1.2,2.6,1.4c0.5,0.1,1,0.2,1.5,0.1c0.5,0,1-0.1,1.5-0.2
+                        c1-0.3,1.8-0.8,2.6-1.4c0.7-0.7,1.3-1.5,1.6-2.4c0.2-0.5,0.3-1,0.3-1.4c0-0.5,0-1,0-1.5c-0.1-1-0.4-2-0.9-2.8
+                        c-0.5-0.9-1.1-1.6-1.9-2.3c-0.8-0.6-1.7-1.1-2.6-1.4c-0.5-0.2-1-0.3-1.5-0.4c-0.2,0-0.5-0.1-0.7-0.1s-0.5,0-0.7,0
+                        c-1,0-2,0.2-2.9,0.6c-1.8,0.7-3.4,2.1-4.5,3.8c-0.5,0.8-0.9,1.8-1.1,2.7c0,0.1,0,0.2-0.1,0.4c0,0.1,0,0.2,0,0.4
+                        c0,0.2-0.1,0.5-0.1,0.7c0,0.5,0,1,0,1.5c0,1,0.2,2,0.5,2.9s0.7,1.8,1.3,2.7c0.6,0.8,1.2,1.5,2,2.1s1.7,1.1,2.6,1.4s1.9,0.5,2.9,0.7
+                        c0.5,0.1,1,0.1,1.5,0.1s1,0,1.5,0c1-0.1,1.9-0.3,2.9-0.6s1.8-0.8,2.7-1.3c1.7-1,3.1-2.5,4.1-4.2c0.5-0.8,0.9-1.7,1.1-2.7
+                        c0.2-0.9,0.4-1.9,0.4-2.9L33.6,17.8z'></path>
+                        <path id="barber_x5F_big_x5F_barbershop4" style="fill:#FFFFFF;"
+                            d='M35,17.8v0.4c0,0.1,0,0.3,0,0.4c0,0.3-0.1,0.6-0.1,0.9c-0.1,0.6-0.2,1.2-0.4,1.7
+                        c-0.3,1.1-0.8,2.2-1.5,3.2c-0.6,1-1.4,1.9-2.2,2.7c-0.8,0.8-1.8,1.5-2.7,2s-2,1-3.1,1.4c-1.1,0.3-2.2,0.6-3.3,0.6
+                        c-0.1,0-0.3,0-0.4,0h-0.2h-0.2h-0.2h-0.2c-0.1,0-0.3,0-0.4,0c-0.5,0-1.1-0.1-1.6-0.2c-1.1-0.2-2.2-0.4-3.2-0.8s-2.1-1-2.9-1.7
+                        c-0.9-0.7-1.7-1.6-2.3-2.5c-0.6-1-1.1-2-1.4-3.1c-0.3-1.1-0.5-2.2-0.5-3.3c0-0.5,0-1.1,0.1-1.6C8,17.8,8,17.5,8,17.2
+                        c0-0.1,0-0.3,0.1-0.4c0-0.1,0.1-0.3,0.1-0.4c0.2-1.1,0.7-2.2,1.3-3.1c0.6-0.9,1.4-1.8,2.2-2.5c0.9-0.7,1.8-1.2,2.9-1.6
+                        c1-0.4,2.1-0.6,3.3-0.6c0.1,0,0.3,0,0.4,0s0.3,0,0.4,0c0.3,0,0.5,0.1,0.8,0.1c0.5,0.2,1,0.4,1.5,0.5c1,0.4,2,0.9,2.9,1.6
+                        c0.9,0.7,1.6,1.6,2.1,2.5c0.5,1,0.8,2,0.9,3.1c0,0.3,0,0.5,0,0.8v0.2c0,0.1,0,0.1,0,0.2s0,0.3,0,0.4c-0.1,0.5-0.2,1.1-0.4,1.6
+                        c-0.4,1-1,2-1.9,2.7c-0.8,0.7-1.8,1.3-2.8,1.5c-0.5,0.1-1.1,0.2-1.6,0.2s-1.1-0.1-1.6-0.2s-1.1-0.3-1.5-0.6s-0.9-0.6-1.3-1
+                        c-0.7-0.8-1.2-1.8-1.4-2.9c-0.1-0.5-0.1-1.1,0-1.7c0.1-0.5,0.3-1.1,0.6-1.5c0.3-0.5,0.7-0.9,1.2-1.2s1-0.5,1.6-0.5
+                        c0.3,0,0.6,0,0.8,0c0.3,0,0.6,0.1,0.8,0.2c0.3,0.1,0.5,0.2,0.8,0.4c0.2,0.2,0.5,0.4,0.6,0.7c0.2,0.3,0.3,0.5,0.3,0.8
+                        c0.1,0.3,0.1,0.6,0.1,0.9c0,0.1,0,0.1,0,0.2v0.1v0.1v0.1v0.2c0,0.1,0,0.2-0.1,0.2c-0.1,0.3-0.3,0.6-0.6,0.8
+                        c-0.2,0.2-0.5,0.3-0.8,0.4s-0.6,0.1-0.9,0c-0.2,0-0.3-0.1-0.5-0.2c-0.1-0.1-0.3-0.2-0.4-0.4c-0.1-0.1-0.2-0.3-0.2-0.5
+                        s-0.1-0.3,0-0.5c0-0.2,0.2-0.4,0.4-0.4c0.2,0,0.5,0.2,0.4,0.4l0,0l0,0c0,0.2,0.1,0.4,0.1,0.5c0.1,0.1,0.2,0.2,0.4,0.2
+                        c0.3,0.1,0.8,0,1.1-0.3c0.1-0.1,0.3-0.3,0.3-0.4v-0.1c0-0.1,0-0.1,0-0.1l0,0l0,0l0,0v-0.1c0-0.1,0-0.1,0-0.2c0-0.4-0.1-0.9-0.3-1.2
+                        c-0.2-0.3-0.6-0.6-1-0.7c-0.2-0.1-0.4-0.1-0.6-0.2c-0.2,0-0.5,0-0.7,0c-0.4,0-0.9,0.2-1.3,0.4s-0.7,0.5-0.9,0.9s-0.4,0.8-0.5,1.3
+                        c-0.1,0.4-0.1,0.9,0,1.4c0.1,0.9,0.6,1.8,1.2,2.4c0.6,0.7,1.5,1.1,2.4,1.3c0.5,0.1,0.9,0.1,1.4,0.1s0.9-0.1,1.4-0.2
+                        c0.9-0.3,1.7-0.7,2.4-1.4c0.7-0.6,1.2-1.4,1.5-2.3c0.1-0.4,0.2-0.9,0.3-1.3c0-0.1,0-0.2,0-0.3v-0.2v-0.2c0-0.2,0-0.5,0-0.7
+                        c-0.1-0.9-0.4-1.8-0.8-2.6s-1.1-1.5-1.8-2.1c-0.7-0.6-1.6-1-2.5-1.3c-0.4-0.1-0.9-0.2-1.4-0.3c-0.2,0-0.5-0.1-0.7-0.1
+                        c-0.1,0-0.2,0-0.3,0c-0.1,0-0.2,0-0.3,0c-0.9,0-1.8,0.2-2.7,0.6c-1.7,0.7-3.2,2-4.1,3.5c-0.5,0.8-0.8,1.6-0.9,2.5c0,0.1,0,0.2,0,0.3
+                        c0,0.1,0,0.2,0,0.4c0,0.2,0,0.5-0.1,0.7c0,0.5,0,0.9,0,1.4c0.1,1.9,0.7,3.7,1.7,5.1c0.5,0.7,1.1,1.3,1.9,1.9
+                        c0.7,0.5,1.5,0.9,2.4,1.2c0.8,0.3,1.7,0.5,2.6,0.5c0.5,0,0.9,0.1,1.4,0.1c0.1,0,0.2,0,0.3,0h0.2h0.2H21h0.2c0.1,0,0.2,0,0.3,0
+                        c0.9-0.1,1.7-0.3,2.6-0.7c0.8-0.3,1.6-0.7,2.4-1.2c1.5-1,2.7-2.3,3.5-3.8c0.4-0.7,0.7-1.5,0.9-2.3c0.1-0.4,0.2-0.8,0.2-1.2
+                        c0-0.2,0-0.4,0-0.6c0-0.1,0-0.2,0-0.3v-0.3l0,0c0-1.1,0.9-2.1,2-2.1s2.1,0.9,2.1,2C35,17.7,35,17.7,35,17.8'></path>
+                        <path id="barber_x5F_big_x5F_barbershop5" style="fill:#FFFFFF;" d='M18.1,5C11,5,5.3,10.8,5.3,17.8S11,30.6,18.1,30.6s12.8-5.7,12.8-12.8S25.1,5,18.1,5 M18.1,34.7
+                        c-9.3,0-16.9-7.6-16.9-16.9S8.8,0.9,18.1,0.9S35,8.5,35,17.8S27.4,34.7,18.1,34.7'></path>
+                    </svg>
+                    <h2 class="footer__logo-text">Дизайн сайта <span>
+                            © StrangeBrain Design Bura</span></h2>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="staff/jquery-3.5.1.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=dbb5ed00-2d05-4f31-9e3c-5dfa11497d72&lang=ru_RU">
+    </script>
+    <script src="staff/libs.min.js?ver=1"></script>
+    <script src="js/script.min.js"></script>
+    <script src="staff/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
